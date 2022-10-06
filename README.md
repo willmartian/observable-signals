@@ -14,7 +14,8 @@ Creates a new Preact Signal by applying RxJS pipeable operators to an existing P
 
 ```ts
 import { effect, signal } from "@preact/signals-core";
-import { pipeSignal } from "observable-signals"
+import { pipeSignal } from "observable-signals";
+import { map } from "rxjs";
 
 const counter = signal(0);
 
