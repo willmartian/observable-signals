@@ -1,12 +1,12 @@
 # Observable Signals
 
-Expiremental interop between RxJS Observables and Preact Signals
+Experimental interop between RxJS Observables and Preact Signals
 
 ## Why?
 
 Preact Signals seem very similar to RxJS Observables, specifically BehaviorSubject, which is an Observable that has a current value.
 
-I am not quite sure about the advantages of using Preact Signals over Observables (are there any?), but in the name of expirementation here are some small utilities for interop. 
+I am not quite sure about the advantages of using Preact Signals over Observables (are there any?), but in the name of experimentation here are some small utilities for interop. 
 
 ## `pipeSignal`
 
